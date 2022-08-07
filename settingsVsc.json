@@ -27,5 +27,8 @@
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "material-icon-theme.activeIconPack": "react",
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
