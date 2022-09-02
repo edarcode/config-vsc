@@ -35,44 +35,44 @@
     "body": ["useEffect(()=>{", "  ${2}", "},[${1}])"],
     "description": "useEffect"
   },
-  "handleOnChange": {
+  "handleChange": {
     "prefix": "hoch",
     "body": [
-      "const handleOnChange${1}=(e)=>{    ",
+      "const handleChange${1}=(e)=>{    ",
       "  const ${2}= e.target.value",
       "  ${3}",
       "}"
     ],
-    "description": "handleOnChange"
+    "description": "handleChange"
   },
-  "handleOnClick": {
+  "handleClick": {
     "prefix": "hoc",
     "body": [
-      "const handleOnClick${1}=(e)=>{    ",
+      "const handleClick${1}=(e)=>{    ",
       "  const ${2}= e.target.value",
       "  ${3}",
       "}"
     ],
-    "description": "handleOnClick"
+    "description": "handleClick"
   },
-  "handleOnSubmit": {
+  "handleSubmit": {
     "prefix": "hos",
     "body": [
-      "const handleOnSubmit${1}=(e)=>{    ",
+      "const handleSubmit${1}=(e)=>{    ",
       "  const ${2}= e.target.value",
       "  ${3}",
       "}"
     ],
-    "description": "handleOnSubmit"
+    "description": "handleSubmit"
   },
-  "console log": {
+  "console.log": {
     "prefix": "cl",
     "body": ["console.log(${1})"],
-    "description": "console log"
+    "description": "console.log"
   },
   "export arrow function": {
-    "prefix": "eaf",
-    "body": ["export const ${TM_FILENAME_BASE}=()=>{", "  ${1}", "}"],
+    "prefix": "af",
+    "body": ["export const ${TM_FILENAME_BASE} = () => {", "  ${1}", "}"],
     "description": "export arrow function"
   },
   "import useParams": {
@@ -84,5 +84,28 @@
     "prefix": "icss",
     "body": ["import css from \"./style.module.css\""],
     "description": "import css"
+  },
+  "controller": {
+    "prefix": "controller",
+    "body": [
+      "export const ${TM_FILENAME_BASE} = async (req, res, next) => {",
+      "  try {",
+      "    res.status(200).json(${1}{ msg: \"👋\" });",
+      "  } catch (error) {",
+      "    next(error);",
+      "  }",
+      "};"
+    ],
+    "description": "controller"
+  },
+  "router de express": {
+    "prefix": "router",
+    "body": [
+      "import { Router } from \"express\";",
+      "export const ${TM_FILENAME_BASE} = Router();",
+      "",
+      "${TM_FILENAME_BASE}.route(\"/\").post();"
+    ],
+    "description": "router de express"
   }
 }
