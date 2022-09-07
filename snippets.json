@@ -6,7 +6,7 @@
   },
   "useSelector": {
     "prefix": "usl",
-    "body": ["const ${1}= useSelector(state=>state${2})"],
+    "body": ["const ${2}= useSelector(({${1}})=>${1})"],
     "description": "useSelector"
   },
   "useState": {
