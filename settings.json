@@ -1,10 +1,8 @@
 {
-  "workbench.colorTheme": "Gruvbox Dark Medium",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "editor.fontFamily": "Cascadia Code, Fira Code",
+  "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
-  "workbench.iconTheme": "material-icon-theme",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -27,12 +25,39 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   },
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "material-icon-theme.activeIconPack": "react",
   "editor.tabSize": 2,
-  "javascript.preferences.importModuleSpecifierEnding": "js"
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "editor.fontSize": 18,
+  "editor.fontWeight": "500",
+  "window.menuBarVisibility": "compact",
+  "editor.renderLineHighlight": "none",
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showIcons": false,
+  "workbench.editor.tabSizing": "shrink",
+  "explorer.decorations.colors": false,
+  "workbench.editor.decorations.colors": false,
+  "explorer.decorations.badges": true,
+  "workbench.editor.decorations.badges": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.guides.indentation": true,
+  "editor.renderWhitespace": "trailing",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Gruvbox Dark (Hard)",
+  "workbench.startupEditor": "none"
 }
